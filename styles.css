@@ -62,6 +62,37 @@ p{
     margin-top: 40px;
     box-shadow: 0px 2px 5px 2px #000
 }  
+
+/* INICIO Texto presentacion..............................*/
+.presentacion{
+    box-sizing: border-box;
+    width: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(245, 97, 44);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display:inline-table;
+    text-align:start;
+    border-radius: 10%;
+    border: 10px solid rgb(255, 148, 41);
+    margin-left: 60px;
+    margin-top: 40px;
+    box-shadow: 0px 2px 5px 2px red #000
+}  
+.leerMas{
+font-size: 15px;
+cursor: pointer;
+}
+.leerMas:hover{
+color:blueviolet;
+}
+/* FIN Texto presentacion..............................*/
+
+
+
 body{
     background-image: url(imagenes/guardog/GUARDOG/happy-smile-dog-images-png.png);
     background-size: contain;
